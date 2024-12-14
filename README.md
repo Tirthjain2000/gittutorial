@@ -1,10 +1,13 @@
 # BV Pricing Framework
+
 A framework to recommend and execute prices. The framework consists of multiple actions that includes dynamic pricing, change in base prices, short-stay configuration and more. In other terms, the framework can interact with LARS and update prices and configurations.
 
 Note: The framework is used in multiple other repositories, because it holds the LARS engine. However, the LARS engine is currently being built in a separate repository, which will lead to that the requirements of bv_pricing will be changed to lars_engine in the future.
 
-## QUICKSTART
+## QUICKSTART Again
+
 ### Installing (production)
+
 Run the following commands to create a separate directory and virtual enviroment from which to run the bv-pricing framework.
 
 ```bash
@@ -15,6 +18,7 @@ make prod-env
 Alternatively run these commands
 
 ### Development
+
 Python Dependencies using pip and virtualenv
 
 ```console
@@ -23,6 +27,7 @@ make dev-env
 ```
 
 To install the repository inside another repository use the followig command
+
 ```bash
 pip install git+ssh://git@bitbucket.org/ovhpricing/bv_pricing.git@22.06.03
 ```
